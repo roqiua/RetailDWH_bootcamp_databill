@@ -132,10 +132,6 @@ Example measures:
 -   **Net Sales** = `GrossSales − DiscountAmount`
 -   **Profit** = `NetSales − (Quantity × UnitCost)`
 
-The formulas assume `Discount` is stored as a rate (for example, `0.10`
-for 10%). Adapt the expression if the source stores discounts
-differently.
-
 Only orders with `OrderStatus = 'Completed'` should contribute to
 completed-sales reporting. Product lookup failures should be routed for
 investigation rather than assigned an arbitrary product key.
