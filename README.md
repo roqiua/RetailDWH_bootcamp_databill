@@ -129,7 +129,6 @@ the applicable product version.
 Example measures:
 
 -   **Gross Sales** = `Quantity × UnitPrice`
--   **Discount Amount** = `GrossSales × Discount`
 -   **Net Sales** = `GrossSales − DiscountAmount`
 -   **Profit** = `NetSales − (Quantity × UnitCost)`
 
